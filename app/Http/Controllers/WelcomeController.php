@@ -10,9 +10,20 @@ class WelcomeController extends Controller
     //     return 'Hello World';
     // }    
        
-    public function index() {
-        return 'Selamat Datang';
-    }
+    // public function index() {
+    //     return 'Selamat Datang';
+    // 
    
+    public function hello() {
+        return 'Hello World';
+       }
+
+       public function greeting(){
+        return view('blog.hello')
+        ->with('name','Sheva')
+        ->with('occupation','Astronaut');
+        }
+
+
     
 }
