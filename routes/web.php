@@ -51,14 +51,14 @@ use Illuminate\Support\Facades\Route;
 
 // Route::get('/index', [PageController::class, 'index']);
 // Route::get('/about', [PageController::class, 'about']);
-Route::get('/articles/{id}', [ArticleController::class,'articles']);
+// Route::get('/articles/{id}', [ArticleController::class,'articles']);
 
-Route::resource('photos', PhotoController::class);
+// Route::resource('photos', PhotoController::class);
 
-Route::resource('photos', PhotoController::class)->only([
-    'index', 'show'
-   ]);
+// Route::resource('photos', PhotoController::class)->only([
+//     'index', 'show'
+//    ]);
 
-Route::resource('photos', PhotoController::class)->except([
-    'create', 'store', 'update', 'destroy'
-   ]);
+// Route::resource('photos', PhotoController::class)->except([
+//     'create', 'store', 'update', 'destroy'
+//    ]);

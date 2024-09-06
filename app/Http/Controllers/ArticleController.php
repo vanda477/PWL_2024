@@ -8,6 +8,6 @@ class ArticleController extends Controller
 {
     public function articles($id)
     {
-        return "Halaman Artikel dengan ID: {$id}";
+        return "Halaman Artikel Dengan ID: {$id}";
     }
 }

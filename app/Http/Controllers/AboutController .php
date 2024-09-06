@@ -8,6 +8,6 @@ class AboutController extends Controller
 {
     public function about()
    {
-       return 'Nama: [Sheva ], NIM: [2241760114]';
+       return 'Nama: [Sheva Ananda], NIM: [2241760114]';
    }
 }
